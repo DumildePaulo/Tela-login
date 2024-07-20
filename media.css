@@ -2,13 +2,25 @@
     main{
         width: 300px;
         flex-direction: column;
+    margin: auto;
+    height: 300px;
     }
     article{
         flex-direction: column;
         border-radius: 0%;
+        border-radius: 10px 10px 0px 0px;
+        margin: auto;
     }
     aside{
         width: 349px;
-        height: 439px;
+        height: 442px;
+        border-radius: 0px 0px 10px 10px;
+        margin: auto;
+    }
+    input.telefone{
+      margin-right: 57px;
+    }
+    input.dive4{
+        margin-bottom: 20px;
     }
 }
